@@ -15,13 +15,13 @@ public class Save {
         EntityTransaction et = em.getTransaction();
 
         Engine en = new Engine();
-        en.setEid(444);
-        en.setCc(1000);
+        en.setEid(333);
+        en.setCc(1300);
 
         Car car = new Car();
-        car.setCid(101);
-        car.setBrand("BMW");
-        car.setPrice(800000L);
+        car.setCid(103);
+        car.setBrand("AUDI");
+        car.setPrice(600000L);
         car.setEngine(en); // ✅ fixed method name
 
         et.begin();
