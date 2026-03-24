@@ -20,7 +20,7 @@ public class Car {
 	
 	
 	private Engine engine;
-	int getCid() {
+	public int getCid() {
 		return cid;
 	}
 	public Engine getEngine() {
